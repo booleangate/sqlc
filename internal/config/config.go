@@ -9,8 +9,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/kyleconroy/sqlc/internal/pattern"
-	"github.com/kyleconroy/sqlc/internal/sql/ast"
+	"github.com/booleangate/sqlc/internal/pattern"
+	"github.com/booleangate/sqlc/internal/sql/ast"
 
 	yaml "gopkg.in/yaml.v3"
 )

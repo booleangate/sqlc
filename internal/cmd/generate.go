@@ -11,16 +11,16 @@ import (
 	"runtime/trace"
 	"strings"
 
-	"github.com/kyleconroy/sqlc/internal/codegen/golang"
-	"github.com/kyleconroy/sqlc/internal/codegen/json"
-	"github.com/kyleconroy/sqlc/internal/codegen/kotlin"
-	"github.com/kyleconroy/sqlc/internal/codegen/python"
-	"github.com/kyleconroy/sqlc/internal/compiler"
-	"github.com/kyleconroy/sqlc/internal/config"
-	"github.com/kyleconroy/sqlc/internal/debug"
-	"github.com/kyleconroy/sqlc/internal/multierr"
-	"github.com/kyleconroy/sqlc/internal/opts"
-	"github.com/kyleconroy/sqlc/internal/plugin"
+	"github.com/booleangate/sqlc/internal/codegen/golang"
+	"github.com/booleangate/sqlc/internal/codegen/json"
+	"github.com/booleangate/sqlc/internal/codegen/kotlin"
+	"github.com/booleangate/sqlc/internal/codegen/python"
+	"github.com/booleangate/sqlc/internal/compiler"
+	"github.com/booleangate/sqlc/internal/config"
+	"github.com/booleangate/sqlc/internal/debug"
+	"github.com/booleangate/sqlc/internal/multierr"
+	"github.com/booleangate/sqlc/internal/opts"
+	"github.com/booleangate/sqlc/internal/plugin"
 )
 
 const errMessageNoVersion = `The configuration file must have a version number.

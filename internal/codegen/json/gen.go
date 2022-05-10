@@ -5,7 +5,7 @@ import (
 
 	"google.golang.org/protobuf/encoding/protojson"
 
-	"github.com/kyleconroy/sqlc/internal/plugin"
+	"github.com/booleangate/sqlc/internal/plugin"
 )
 
 func Generate(req *plugin.CodeGenRequest) (*plugin.CodeGenResponse, error) {

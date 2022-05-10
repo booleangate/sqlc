@@ -3,8 +3,8 @@ package catalog
 import (
 	"fmt"
 
-	"github.com/kyleconroy/sqlc/internal/sql/ast"
-	"github.com/kyleconroy/sqlc/internal/sql/sqlerr"
+	"github.com/booleangate/sqlc/internal/sql/ast"
+	"github.com/booleangate/sqlc/internal/sql/sqlerr"
 )
 
 func (c *Catalog) createSchema(stmt *ast.CreateSchemaStmt) error {

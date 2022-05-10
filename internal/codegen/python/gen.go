@@ -8,13 +8,13 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/kyleconroy/sqlc/internal/codegen/sdk"
-	"github.com/kyleconroy/sqlc/internal/inflection"
-	"github.com/kyleconroy/sqlc/internal/metadata"
-	"github.com/kyleconroy/sqlc/internal/plugin"
-	pyast "github.com/kyleconroy/sqlc/internal/python/ast"
-	"github.com/kyleconroy/sqlc/internal/python/poet"
-	pyprint "github.com/kyleconroy/sqlc/internal/python/printer"
+	"github.com/booleangate/sqlc/internal/codegen/sdk"
+	"github.com/booleangate/sqlc/internal/inflection"
+	"github.com/booleangate/sqlc/internal/metadata"
+	"github.com/booleangate/sqlc/internal/plugin"
+	pyast "github.com/booleangate/sqlc/internal/python/ast"
+	"github.com/booleangate/sqlc/internal/python/poet"
+	pyprint "github.com/booleangate/sqlc/internal/python/printer"
 )
 
 type Constant struct {

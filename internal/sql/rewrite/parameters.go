@@ -3,11 +3,11 @@ package rewrite
 import (
 	"fmt"
 
-	"github.com/kyleconroy/sqlc/internal/config"
-	"github.com/kyleconroy/sqlc/internal/source"
-	"github.com/kyleconroy/sqlc/internal/sql/ast"
-	"github.com/kyleconroy/sqlc/internal/sql/astutils"
-	"github.com/kyleconroy/sqlc/internal/sql/named"
+	"github.com/booleangate/sqlc/internal/config"
+	"github.com/booleangate/sqlc/internal/source"
+	"github.com/booleangate/sqlc/internal/sql/ast"
+	"github.com/booleangate/sqlc/internal/sql/astutils"
+	"github.com/booleangate/sqlc/internal/sql/named"
 )
 
 // Given an AST node, return the string representation of names

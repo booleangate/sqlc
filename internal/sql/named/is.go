@@ -1,8 +1,8 @@
 package named
 
 import (
-	"github.com/kyleconroy/sqlc/internal/sql/ast"
-	"github.com/kyleconroy/sqlc/internal/sql/astutils"
+	"github.com/booleangate/sqlc/internal/sql/ast"
+	"github.com/booleangate/sqlc/internal/sql/astutils"
 )
 
 // IsParamFunc fulfills the astutils.Search

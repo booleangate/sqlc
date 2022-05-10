@@ -9,13 +9,13 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/kyleconroy/sqlc/internal/metadata"
-	"github.com/kyleconroy/sqlc/internal/migrations"
-	"github.com/kyleconroy/sqlc/internal/multierr"
-	"github.com/kyleconroy/sqlc/internal/opts"
-	"github.com/kyleconroy/sqlc/internal/sql/ast"
-	"github.com/kyleconroy/sqlc/internal/sql/sqlerr"
-	"github.com/kyleconroy/sqlc/internal/sql/sqlpath"
+	"github.com/booleangate/sqlc/internal/metadata"
+	"github.com/booleangate/sqlc/internal/migrations"
+	"github.com/booleangate/sqlc/internal/multierr"
+	"github.com/booleangate/sqlc/internal/opts"
+	"github.com/booleangate/sqlc/internal/sql/ast"
+	"github.com/booleangate/sqlc/internal/sql/sqlerr"
+	"github.com/booleangate/sqlc/internal/sql/sqlpath"
 )
 
 // TODO: Rename this interface Engine

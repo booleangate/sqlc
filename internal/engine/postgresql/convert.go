@@ -8,7 +8,7 @@ import (
 
 	pg "github.com/pganalyze/pg_query_go/v2"
 
-	"github.com/kyleconroy/sqlc/internal/sql/ast"
+	"github.com/booleangate/sqlc/internal/sql/ast"
 )
 
 func convertFuncParamMode(m pg.FunctionParameterMode) (ast.FuncParamMode, error) {
@@ -3120,7 +3120,7 @@ func convertNode(node *pg.Node) ast.Node {
 
 	case *pg.Node_BooleanTest:
 		return convertBooleanTest(n.BooleanTest)
-		
+
 	case *pg.Node_CallStmt:
 		return convertCallStmt(n.CallStmt)
 

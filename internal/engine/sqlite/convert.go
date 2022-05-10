@@ -1,12 +1,13 @@
 package sqlite
 
 import (
-	"github.com/antlr/antlr4/runtime/Go/antlr"
 	"strconv"
 	"strings"
 
-	"github.com/kyleconroy/sqlc/internal/engine/sqlite/parser"
-	"github.com/kyleconroy/sqlc/internal/sql/ast"
+	"github.com/antlr/antlr4/runtime/Go/antlr"
+
+	"github.com/booleangate/sqlc/internal/engine/sqlite/parser"
+	"github.com/booleangate/sqlc/internal/sql/ast"
 )
 
 type node interface {

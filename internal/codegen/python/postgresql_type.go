@@ -3,8 +3,8 @@ package python
 import (
 	"log"
 
-	"github.com/kyleconroy/sqlc/internal/codegen/sdk"
-	"github.com/kyleconroy/sqlc/internal/plugin"
+	"github.com/booleangate/sqlc/internal/codegen/sdk"
+	"github.com/booleangate/sqlc/internal/plugin"
 )
 
 func postgresType(req *plugin.CodeGenRequest, col *plugin.Column) string {

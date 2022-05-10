@@ -10,10 +10,10 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/kyleconroy/sqlc/internal/codegen/sdk"
-	"github.com/kyleconroy/sqlc/internal/inflection"
-	"github.com/kyleconroy/sqlc/internal/metadata"
-	"github.com/kyleconroy/sqlc/internal/plugin"
+	"github.com/booleangate/sqlc/internal/codegen/sdk"
+	"github.com/booleangate/sqlc/internal/inflection"
+	"github.com/booleangate/sqlc/internal/metadata"
+	"github.com/booleangate/sqlc/internal/plugin"
 )
 
 var ktIdentPattern = regexp.MustCompile("[^a-zA-Z0-9_]+")

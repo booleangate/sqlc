@@ -13,10 +13,10 @@ import (
 	"github.com/spf13/pflag"
 	yaml "gopkg.in/yaml.v3"
 
-	"github.com/kyleconroy/sqlc/internal/config"
-	"github.com/kyleconroy/sqlc/internal/debug"
-	"github.com/kyleconroy/sqlc/internal/info"
-	"github.com/kyleconroy/sqlc/internal/tracer"
+	"github.com/booleangate/sqlc/internal/config"
+	"github.com/booleangate/sqlc/internal/debug"
+	"github.com/booleangate/sqlc/internal/info"
+	"github.com/booleangate/sqlc/internal/tracer"
 )
 
 // Do runs the command logic.
